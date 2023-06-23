@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAsyncEnumerableExample.Web", "IAsyncEnumerableExample.Web\IAsyncEnumerableExample.Web.csproj", "{4D15428B-4EB8-4658-A04D-51CA432DBACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D15428B-4EB8-4658-A04D-51CA432DBACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D15428B-4EB8-4658-A04D-51CA432DBACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D15428B-4EB8-4658-A04D-51CA432DBACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D15428B-4EB8-4658-A04D-51CA432DBACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {826A728E-16FC-42C6-B3AB-B0296B878D66}
+	EndGlobalSection
+EndGlobal
