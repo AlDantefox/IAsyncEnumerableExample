@@ -14,7 +14,7 @@ namespace IAsyncEnumerableExample.Web.Repository
                 {
                     Id = Guid.NewGuid(),
                     Name = $"Some name {i}",
-                    Code = $"{i}SOMECODE{i % 13}",
+                    Code = $"{Math.Abs(i.ToString().GetHashCode())}",
                     SortOrder = i,
                     ActivationDate = DateTime.Today.AddDays(-1 * i),
                     Enabled = i % 2 == 0

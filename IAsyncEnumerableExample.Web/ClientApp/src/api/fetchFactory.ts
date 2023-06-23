@@ -11,13 +11,14 @@ export class FetchFactory {
       this.requestHeaders.set('Access-Control-Allow-Credentials', 'true');
    }
 
-   public fetchGet(url: string, params?: URLSearchParams): Promise<Response> {
+   public fetchGet(url: string, params?: URLSearchParams, signal?: AbortSignal): Promise<Response> {
       let checkedUrl = url.startsWith('/') ? `${this.baseUrl}${url}` : `${this.baseUrl}/${url}`;
       checkedUrl = params === undefined ? checkedUrl : `${checkedUrl}?${params}`;
       return fetch(checkedUrl, {
          method: 'GET',
          headers: this.requestHeaders,
          credentials: 'include',
+         signal: signal,
       });
    }
 }
